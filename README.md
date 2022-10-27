@@ -13,3 +13,5 @@ Low coverage genomes
 4: merge gvcf files
 5: merge bam files
 (make sure read groups stay intact @RG)
+6: index bam files
+7: run whatshap script

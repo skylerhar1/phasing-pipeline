@@ -15,3 +15,6 @@ Low coverage genomes
 (make sure read groups stay intact @RG)
 6: index bam files
 7: run whatshap script
+8: on log file us :
+cat *| grep -B 5 "1 non-singleton" | grep "#" | awk '{print $(NF)}'
+to print a list of singly phased isolates

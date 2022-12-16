@@ -3,6 +3,7 @@ process of using whatshap phasing
 Reference genome
 1: index reference genome
 2: map raw reads to reference genome to get bam files
+2.5: index bam files
 3: create a vcf file from the illumina bam files
 4: whatshap phase with vcf file, and all bam files
 
